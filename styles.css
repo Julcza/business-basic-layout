@@ -1,0 +1,143 @@
+
+/*  typography & decorations*/
+
+
+
+body {
+    margin: 0;
+    font-family:"Comfortaa", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+h1 {
+    font-size: 36px;
+  
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #EF5839;
+    margin-top: 0;
+}
+
+
+
+
+/* styling */
+
+header {
+    background:#2E354F;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+section {
+    padding:25px;
+}
+
+
+h1 {
+    border: 7px solid #EF5839;
+    border-radius: 50px;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+
+
+}
+
+
+/* section 1 */
+
+
+.section-1 {
+  background: white;
+}
+
+
+
+img {
+    width: 620px;
+}
+
+
+/* section 2 */
+
+
+
+.section-2 {
+    background:#2E354F;
+    height: calc(100vh - 110px);
+    color: white;
+}
+
+
+.section-2 strong {
+    color: #ff8a54;
+}
+
+
+
+/* common */
+
+.container {
+    margin: 0 auto;
+    padding: 25px;
+    width: 620px;
+}
+
+
+/* buttons styling */
+
+.btn {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn-orange {
+    background: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    color: white;
+
+}
+
+
+.btn-white {
+    background: white;
+    color:#EF5839;
+}
+
+
+/*  buttons hover state */
+
+.btn-orange {
+    &:hover,
+    &:active,
+    &:focus {
+        background:white ;
+        color:#EF5839;
+    }
+}
+
+
+.btn-white {
+    &:hover,
+    &:active,
+    &:focus {
+        background: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+        color:white;
+    }
+}
+
+
+
